@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Orange",
+        "price": 3.99,
+        "image": "assets/images/orange.png"
+    },
+    {
+        "id": 2,
+        "name": "Watermelon",
+        "price": 4.99,
+        "image": "assets/images/watermelon.png"
+    },
+    {
+        "id": 3,
+        "name": "Kiwi",
+        "price": 2.99,
+        "image": "assets/images/kiwi.png"
+    },
+    {
+        "id": 4,
+        "name": "Apple",
+        "price": 1.99,
+        "image": "assets/images/apple.png"
+    },
+    {
+        "id": 5,
+        "name": "Banana",
+        "price": 7.99,
+        "image": "assets/images/banana.png"
+    },
+    {
+        "id": 6,
+        "name": "Strawberry",
+        "price": 9.50,
+        "image": "assets/images/strawberry.png"
+    }
+]

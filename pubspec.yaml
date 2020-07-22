@@ -1,0 +1,31 @@
+name: flutter_getx_concept
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  flutter_icons:
+  get: 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/data/products.json
+    - assets/images/banana.png
+    - assets/images/kiwi.png
+    - assets/images/orange.png
+    - assets/images/apple.png
+    - assets/images/watermelon.png
+    - assets/images/strawberry.png
