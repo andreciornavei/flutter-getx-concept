@@ -2,6 +2,8 @@
 
 🚀 A Flutter project application that make use of the state manager GetX.
 
+![](https://github.com/andreciornavei/images/blob/master/flutter_getx_concept/flutter_getx_concept_presentation.gif?raw=true)
+
 ---
 
 ## Overview
