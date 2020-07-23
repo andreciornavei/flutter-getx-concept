@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Orange",
         "category": "fruits",
-        "price": 3.99,
+        "price": 3.84,
         "image": "assets/images/orange.png",
         "description": "Apple juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate."
     },
@@ -11,7 +11,7 @@
         "id": 2,
         "name": "Watermelon",
         "category": "fruits",
-        "price": 4.99,
+        "price": 18.57,
         "image": "assets/images/watermelon.png",
         "description": "Apple juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate."
     },
@@ -19,7 +19,7 @@
         "id": 3,
         "name": "Kiwi",
         "category": "fruits",
-        "price": 2.99,
+        "price": 16.67,
         "image": "assets/images/kiwi.png",
         "description": "Apple juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate."
     },
@@ -27,7 +27,7 @@
         "id": 4,
         "name": "Apple",
         "category": "fruits",
-        "price": 1.99,
+        "price": 9.36,
         "image": "assets/images/apple.png",
         "description": "Apple juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate."
     },
@@ -35,7 +35,7 @@
         "id": 5,
         "name": "Banana",
         "category": "fruits",
-        "price": 7.99,
+        "price": 6.24,
         "image": "assets/images/banana.png",
         "description": "Apple juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate."
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "Strawberry",
         "category": "fruits",
-        "price": 9.50,
+        "price": 18.90,
         "image": "assets/images/strawberry.png",
         "description": "Apple juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate."
     },
@@ -51,7 +51,7 @@
         "id": 7,
         "name": "Pepper",
         "category": "vegetables",
-        "price": 9.50,
+        "price": 13.80,
         "image": "assets/images/peppers.png",
         "description": "Apple juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate."
     },
@@ -59,7 +59,7 @@
         "id": 8,
         "name": "Broccoli",
         "category": "vegetables",
-        "price": 5.50,
+        "price": 3.20,
         "image": "assets/images/broccoli.png",
         "description": "Apple juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate."
     },
@@ -67,7 +67,7 @@
         "id": 9,
         "name": "Carrot",
         "category": "vegetables",
-        "price": 5.50,
+        "price": 1.50,
         "image": "assets/images/carrot.png",
         "description": "Apple juice is a fruit juice made by the maceration and pressing of an apple. The resulting expelled juice may be further treated by enzymatic and centrifugal clarification to remove the starch and pectin, which holds fine particulate in suspension, and then pasteurized for packaging in glass, metal, or aseptic processing system containers, or further treated by dehydration processes to a concentrate."
     }
