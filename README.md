@@ -12,6 +12,26 @@ In general, this project is part of a studies to understand the best architectur
 
 ---
 
+## Resources
+
+I made use of some approaches to make this project simple and objective to fulfill your proposal, one of these approaches is the use of internal data as a json file and images in `assets` folder to simulate an fetch api, so you can fork this project and have no worriy about outside resources.
+
+- Page with list of produts;
+- Switch between categories;
+- List products for a selected category;
+- Like in products _`(i tried to make this project uncomplicated, so the state of likes is lost when switch between categories)`_;
+- Page of product to see more information;
+- Add selected product to cart;
+- Counter of products in cart;
+- Page of products in cart;
+- Increase/Decrese quantity for each product;
+- Increse a max of 10 unities per product;
+- Delete product from cart;
+- A totalizer of products prices in cart; 
+- Purchase (It clears the cart and returns to home);
+
+---
+
 ## The project structure
 
 For this project, i focused to solve the problem using only the GetX resources and following the below structure i feel good about the results,  the simplicity to understand the project and its rules.
