@@ -1,0 +1,14 @@
+[
+    {
+        "key": "fruits",
+        "name": "Fruits"
+    },
+    {
+        "key": "vegetables",
+        "name": "Vegetables"
+    },
+    {
+        "key": "drinks",
+        "name": "Drinks"
+    }
+]

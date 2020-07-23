@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_getx_concept/widgets/appbar_action.dart';
+import 'package:flutter_getx_concept/widgets/custom_appbar.dart';
+import 'package:flutter_icons/flutter_icons.dart';
 import 'package:get/get.dart';
 import 'package:flutter_getx_concept/pages/product/controller.dart';
 import 'package:flutter_getx_concept/utils/colors.dart';
@@ -14,9 +17,14 @@ class Product extends StatelessWidget {
       builder: (controller) {
         return Scaffold(
           backgroundColor: AppColors.LIGHT,
-          appBar: AppBar(
-            title: Text("Product"),
-            elevation: 0,
+          appBar: CustomAppBar(
+            "Product",
+            leadings: [
+              CustomAppBarAction(
+                () => Get.back(),
+                Feather.arrow_left,
+              )
+            ],
           ),
           body: SingleChildScrollView(
             child: Column(

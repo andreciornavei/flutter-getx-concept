@@ -6,34 +6,30 @@ class CartItemModel {
     ProductModel product,
     int quantity,
   }) {
-    setProduct(product);
-    setQuantity(quantity);
+    this.product = product;
+    this.quantity = quantity;
   }
-  Rx<ProductModel> rxProduct = Rx<ProductModel>();
-  setProduct(ProductModel value) => rxProduct.value = value;
-  ProductModel get product {
-    return rxProduct.value;
-  }
+  Rx<ProductModel> _product = Rx<ProductModel>();
+  set product(ProductModel value) => _product.value = value;
+  ProductModel get product => _product.value;
 
-  RxInt rxQuantity = RxInt();
-  setQuantity(int value) => rxQuantity.value = value;
-  int get quantity {
-    return rxQuantity.value;
-  }
+  RxInt _quantity = RxInt();
+  set quantity(int value) => _quantity.value = value;
+  int get quantity => _quantity.value;
 
   incrementQuantity() {
     if (this.quantity >= 10) {
-      this.rxQuantity.value = 10;
+      this.quantity = 10;
     } else {
-      this.rxQuantity.value += 1;
+      this.quantity += 1;
     }
   }
 
   decrementQuantity() {
     if (this.quantity <= 1) {
-      this.rxQuantity.value = 1;
+      this.quantity = 1;
     } else {
-      this.rxQuantity.value -= 1;
+      this.quantity -= 1;
     }
   }
 }

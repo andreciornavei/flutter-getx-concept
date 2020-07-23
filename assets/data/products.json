@@ -2,37 +2,64 @@
     {
         "id": 1,
         "name": "Orange",
+        "category": "fruits",
         "price": 3.99,
         "image": "assets/images/orange.png"
     },
     {
         "id": 2,
         "name": "Watermelon",
+        "category": "fruits",
         "price": 4.99,
         "image": "assets/images/watermelon.png"
     },
     {
         "id": 3,
         "name": "Kiwi",
+        "category": "fruits",
         "price": 2.99,
-        "image": "assets/images/kiwi.png"
+        "image": "assets/images/kiwi2.png"
     },
     {
         "id": 4,
         "name": "Apple",
+        "category": "fruits",
         "price": 1.99,
         "image": "assets/images/apple.png"
     },
     {
         "id": 5,
         "name": "Banana",
+        "category": "fruits",
         "price": 7.99,
         "image": "assets/images/banana.png"
     },
     {
         "id": 6,
         "name": "Strawberry",
+        "category": "fruits",
         "price": 9.50,
         "image": "assets/images/strawberry.png"
+    },
+    {
+        "id": 7,
+        "name": "Papper",
+        "category": "vegetables",
+        "price": 9.50,
+        "image": "assets/images/peppers.png"
+    },
+    {
+        "id": 8,
+        "name": "Broccoli",
+        "category": "vegetables",
+        "price": 5.50,
+        "image": "assets/images/broccoli.png"
+    },
+    {
+        "id": 9,
+        "name": "Carrot",
+        "category": "vegetables",
+        "price": 5.50,
+        "image": "assets/images/carrot.png"
     }
 ]

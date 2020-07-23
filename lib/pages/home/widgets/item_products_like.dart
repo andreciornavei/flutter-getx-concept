@@ -21,7 +21,7 @@ class ItemLike extends StatelessWidget {
             color: product.like ? AppColors.GREEN : AppColors.LIGHT_GREY,
           );
         }),
-        onPressed: () => product.setLike(!product.like),
+        onPressed: () => product.like = !product.like,
       ),
     );
   }

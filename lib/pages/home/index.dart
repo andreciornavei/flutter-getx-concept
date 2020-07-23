@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_getx_concept/widgets/custom_appbar.dart';
 import 'package:flutter_icons/flutter_icons.dart';
 import 'package:get/get.dart';
 import 'package:flutter_getx_concept/pages/home/controller.dart';
 import 'package:flutter_getx_concept/utils/colors.dart';
 import 'package:flutter_getx_concept/widgets/appbar_action.dart';
-import 'package:flutter_getx_concept/widgets/page_title.dart';
-import 'widgets/list.dart';
+import 'widgets/list_products.dart';
+import 'widgets/list_categories.dart';
 
 class Home extends StatelessWidget {
   @override
@@ -15,15 +16,14 @@ class Home extends StatelessWidget {
       builder: (controller) {
         return Scaffold(
           backgroundColor: AppColors.LIGHT,
-          appBar: AppBar(
-            elevation: 0,
-            title: Text("Flutter GetX Concept"),
-            actions: <Widget>[
+          appBar: CustomAppBar(
+            "GetX Concept",
+            actions: [
               Obx(
-                () => ActionNotification(
+                () => CustomAppBarAction(
                   () => Get.toNamed("/cart"),
                   Feather.shopping_cart,
-                  controller.totalCart,
+                  quantity: controller.totalCart,
                 ),
               ),
             ],
@@ -31,7 +31,7 @@ class Home extends StatelessWidget {
           body: CustomScrollView(
             slivers: <Widget>[
               SliverToBoxAdapter(
-                child: PageTitle("FRUITS"),
+                child: ListCategories(),
               ),
               SliverPadding(
                 padding: EdgeInsets.only(

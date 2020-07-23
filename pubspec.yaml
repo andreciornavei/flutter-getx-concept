@@ -23,9 +23,13 @@ flutter:
   uses-material-design: true
   assets:
     - assets/data/products.json
+    - assets/data/categories.json
     - assets/images/banana.png
-    - assets/images/kiwi.png
+    - assets/images/kiwi2.png
     - assets/images/orange.png
     - assets/images/apple.png
     - assets/images/watermelon.png
     - assets/images/strawberry.png
+    - assets/images/peppers.png
+    - assets/images/broccoli.png
+    - assets/images/carrot.png
