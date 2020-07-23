@@ -52,7 +52,7 @@ For this project, i focused to solve the problem using only the GetX resources a
 # in the future, so because that, i defined some rules:
     - /page_name
         # RULE 1: For all pages, we have to create a folder
-        # named with out page name where we can create the 
+        # named with our page name where we can create the 
         # appropriate files.
         - index.dart
         # RULE 2: Every page must to have an index.dart as a 
