@@ -5,9 +5,6 @@ class AppColors {
   static final MaterialColor PRIMARY_COLOR = _factoryColor(0xff2B3340);
 
   // ignore: non_constant_identifier_names
-  static final MaterialColor SECONDARY_COLOR = _factoryColor(0xff077655);
-
-  // ignore: non_constant_identifier_names
   static final MaterialColor LIGHT = _factoryColor(0xfff4f4f8);
 
   // ignore: non_constant_identifier_names

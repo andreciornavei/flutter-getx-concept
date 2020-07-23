@@ -6,10 +6,10 @@ import 'package:get/get.dart';
 import 'package:flutter_getx_concept/pages/product/controller.dart';
 import 'package:flutter_getx_concept/utils/colors.dart';
 import 'package:flutter_getx_concept/widgets/product_image.dart';
-
 import 'widgets/product_actions.dart';
 
 class Product extends StatelessWidget {
+
   @override
   Widget build(BuildContext context) {
     return GetBuilder<ProductController>(

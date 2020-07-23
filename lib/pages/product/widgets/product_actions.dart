@@ -42,7 +42,7 @@ class ProductActions extends StatelessWidget {
             Expanded(
               child: OrganicButton(
                 controller.addProduct,
-                "Add to cart",
+                "ADD TO CART",
                 Feather.shopping_cart,
               ),
             ),
