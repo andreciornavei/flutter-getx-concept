@@ -46,8 +46,8 @@ class ProductModel {
   set like(bool value) => _like.value = value;
   bool get like => _like.value;
 
-  String get priceBrl {
-    return "R\$" + this.price.toStringAsFixed(2);
+  String get dollar {
+    return "U\$ " + this.price.toStringAsFixed(2);
   }
 
 }

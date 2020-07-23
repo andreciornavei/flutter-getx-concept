@@ -31,7 +31,7 @@ class ProductActions extends StatelessWidget {
           children: <Widget>[
             Expanded(
               child: Text(
-                this.product?.priceBrl ?? "0",
+                this.product?.dollar ?? "0",
                 style: TextStyle(
                   fontSize: 32,
                   color: AppColors.LIGHT_GREEN,

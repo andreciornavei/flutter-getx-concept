@@ -60,7 +60,7 @@ class ListItem extends StatelessWidget {
                     ),
                     SizedBox(height: 5),
                     Text(
-                      this.product.priceBrl,
+                      this.product.dollar,
                       style: TextStyle(
                         fontSize: 21,
                         color: AppColors.LIGHT_GREEN,

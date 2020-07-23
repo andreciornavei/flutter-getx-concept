@@ -53,7 +53,7 @@ class CartItem extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    this.cartItem.product.priceBrl,
+                    this.cartItem.product.dollar,
                     style: TextStyle(
                       fontSize: 16,
                       color: AppColors.GREEN,
