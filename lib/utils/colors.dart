@@ -23,6 +23,9 @@ class AppColors {
   static final MaterialColor GREEN = _factoryColor(0xff077655);
 
   // ignore: non_constant_identifier_names
+  static final MaterialColor LIGHT_GREEN = _factoryColor(0xff3AB54A);
+
+  // ignore: non_constant_identifier_names
   static final MaterialColor SHADOW = _factoryColor(0xffE7EAF0);
 
   static MaterialColor hex(String hex) => AppColors._factoryColor(AppColors._getColorHexFromStr(hex));

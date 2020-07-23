@@ -11,20 +11,22 @@ class HomeList extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Obx(() {
-      return SliverGrid(
-        gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-            crossAxisCount: 2,
-            mainAxisSpacing: 25.0,
-            crossAxisSpacing: 25.0,
-            childAspectRatio: itemWidth / itemHeight),
-        delegate: SliverChildBuilderDelegate(
-          (BuildContext context, int index) {
-            return ListItem(controller.products.elementAt(index));
-          },
-          childCount: controller.products.length ?? 0,
-        ),
-      );
-    });
+    return Obx(
+      () {
+        return SliverGrid(
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+              crossAxisCount: 2,
+              mainAxisSpacing: 25.0,
+              crossAxisSpacing: 25.0,
+              childAspectRatio: itemWidth / itemHeight),
+          delegate: SliverChildBuilderDelegate(
+            (BuildContext context, int index) {
+              return ListItem(controller.products.elementAt(index));
+            },
+            childCount: controller.products.length ?? 0,
+          ),
+        );
+      },
+    );
   }
 }
