@@ -8,11 +8,11 @@
 
 This project was created with the purpose to apply most of concepts implementeds by the state manager [GetX][getx_package]. Using a small flux of screens to simulate a shopping cart, this project implements a folder architeture that make sense for placing all the widgets tree from a screen to have secure access of its parent controllers.
 
-In general, this project is part of a studies to undestand the best architeture patter to implement in flutter projects that works for me and i hope to works for you too.
+In general, this project is part of a studies to understand the best architecture pattern to implement in flutter projects that works for me and i hope to works for you too.
 
 ---
 
-## The project architecture
+## The project structure
 
 For this project, i focused to solve the problem using only the GetX resources and following the below structure i feel good about the results,  the simplicity to understand the project and its rules.
 
@@ -82,9 +82,9 @@ For this project, i focused to solve the problem using only the GetX resources a
 
 - main.dart
 # This file is the point of start of application, it means that 
-# if it dispose, the app should closes too. In general, this 
-# file has the responsability to initialize the GetX context, 
-# start our AppController for global purposes and implement all 
+# if it dispose, the app should closes too. This file has the
+# responsability to initialize the GetX context, start our 
+# AppController for global purposes and implement all 
 # the route screens to allow navigations. Also, to initialize 
 # the AppController in this file, i make use of 
 # Get.put(AppController()) because the use of named_routes in 
