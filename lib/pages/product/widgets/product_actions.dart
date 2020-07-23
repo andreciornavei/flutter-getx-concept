@@ -13,7 +13,7 @@ class ProductActions extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       padding: EdgeInsets.all(25),
-      color: AppColors.DARK,
+      color: AppColors.WHITE,
       child: SafeArea(
         child: OrganicButton(
           controller.addProduct,
