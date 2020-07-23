@@ -23,7 +23,7 @@ class Home extends StatelessWidget {
                 () => CustomAppBarAction(
                   () => Get.toNamed("/cart"),
                   Feather.shopping_cart,
-                  quantity: controller.totalCart,
+                  quantity: controller.cartQuantity,
                 ),
               ),
             ],

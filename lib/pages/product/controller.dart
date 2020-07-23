@@ -8,10 +8,10 @@ import '../../controller.dart';
 
 class ProductController extends GetxController {
   AppController appController = Get.find();
-  Rx<ProductModel> rxProduct = Rx<ProductModel>();
-  setProduct(ProductModel value) => rxProduct.value = value;
+  Rx<ProductModel> _product = Rx<ProductModel>();
+  setProduct(ProductModel value) => _product.value = value;
   ProductModel get product {
-    return rxProduct.value;
+    return _product.value;
   }
 
   ProductController() {

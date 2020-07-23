@@ -12,7 +12,7 @@ class HomeController extends GetxController {
   Rx<CategoryModel> _selectedCategory = Rx<CategoryModel>();
   CategoryModel get selectedCategory => _selectedCategory.value;
 
-  int get totalCart {
+  int get cartQuantity {
     return appController.cartItems.length;
   }
 
