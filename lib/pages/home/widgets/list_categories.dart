@@ -14,10 +14,11 @@ class ListCategories extends StatelessWidget {
   Widget build(BuildContext context) {
     return Obx(() {
       return SizedBox(
-        height: 80,
-        child: ListView.builder(
+        height: 100,
+        child: ListView.separated(
           scrollDirection: Axis.horizontal,
-          padding: EdgeInsets.symmetric(horizontal: 0, vertical: 15),
+          padding: EdgeInsets.symmetric(horizontal: 25, vertical: 25),
+          separatorBuilder: (BuildContext context, int index) => SizedBox(width: 50),
           itemCount: controller.categories.length,
           itemBuilder: (_, index) {
             CategoryModel category = controller.categories.elementAt(index);

@@ -1,14 +1,17 @@
 [
     {
         "key": "fruits",
-        "name": "Fruits"
+        "name": "Fruits",
+        "color": "#F13750"
     },
     {
         "key": "vegetables",
-        "name": "Vegetables"
+        "name": "Vegetables",
+        "color": "#3AB54A"
     },
     {
         "key": "drinks",
-        "name": "Drinks"
+        "name": "Drinks",
+        "color": "#00cded"
     }
 ]

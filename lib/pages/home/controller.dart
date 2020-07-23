@@ -29,6 +29,7 @@ class HomeController extends GetxController {
         .map<CategoryModel>((category) => CategoryModel(
               key: category["key"],
               name: category["name"],
+              color: category["color"],
             ))
         .toList());
     selectCategory(categories.first);

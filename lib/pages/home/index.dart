@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
         return Scaffold(
           backgroundColor: AppColors.LIGHT,
           appBar: CustomAppBar(
-            "GetX Concept",
+            "GetX Concepts",
             actions: [
               Obx(
                 () => CustomAppBarAction(
