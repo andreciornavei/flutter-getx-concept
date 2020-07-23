@@ -6,10 +6,9 @@ import 'package:get/get.dart';
 import 'package:flutter_getx_concept/pages/product/controller.dart';
 import 'package:flutter_getx_concept/utils/colors.dart';
 import 'package:flutter_getx_concept/widgets/product_image.dart';
-import 'widgets/product_actions.dart';
+import 'widgets/product_details.dart';
 
 class Product extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return GetBuilder<ProductController>(
@@ -28,6 +27,8 @@ class Product extends StatelessWidget {
           ),
           body: SingleChildScrollView(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              mainAxisSize: MainAxisSize.max,
               children: <Widget>[
                 Obx(
                   () => ProductImage(
@@ -36,46 +37,10 @@ class Product extends StatelessWidget {
                     padding: 25,
                   ),
                 ),
-                Container(
-                  padding: EdgeInsets.all(25),
-                  decoration: BoxDecoration(
-                    color: AppColors.WHITE,
-                    borderRadius: BorderRadius.only(
-                      topLeft: Radius.circular(25),
-                      topRight: Radius.circular(25),
-                    ),
-                  ),
-                  child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.start,
-                    children: <Widget>[
-                      Obx(
-                        () => Text(
-                          controller.product?.name ?? "",
-                          style: TextStyle(
-                            fontSize: 32,
-                            color: AppColors.DARK,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                      SizedBox(height: 15),
-                      Obx(
-                        () => Text(
-                          controller.product?.description ?? "",
-                          style: TextStyle(
-                            fontSize: 14,
-                            color: AppColors.DARK,
-                            fontWeight: FontWeight.normal,
-                          ),
-                        ),
-                      ),
-                    ],
-                  ),
-                ),
               ],
             ),
           ),
-          bottomNavigationBar: Obx(() => ProductActions(controller.product)),
+          bottomNavigationBar: Obx(() => ProductDetails(controller.product)),
         );
       },
     );
