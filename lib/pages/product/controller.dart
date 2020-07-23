@@ -27,8 +27,10 @@ class ProductController extends GetxController {
       setProduct(ProductModel(
         id: item["id"],
         name: item["name"],
+        category: item["category"],
         price: item["price"],
         image: item["image"],
+        description: item["description"],
       ));
     } catch (error) {
       print(error.toString());

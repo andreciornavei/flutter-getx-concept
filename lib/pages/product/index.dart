@@ -36,31 +36,46 @@ class Product extends StatelessWidget {
                     padding: 25,
                   ),
                 ),
-                Obx(
-                  () => Text(
-                    controller.product?.name ?? "",
-                    style: TextStyle(
-                      fontSize: 32,
-                      color: AppColors.DARK,
-                      fontWeight: FontWeight.bold,
+                Container(
+                  padding: EdgeInsets.all(25),
+                  decoration: BoxDecoration(
+                    color: AppColors.WHITE,
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(25),
+                      topRight: Radius.circular(25),
                     ),
+                  ),
+                  child: Column(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: <Widget>[
+                      Obx(
+                        () => Text(
+                          controller.product?.name ?? "",
+                          style: TextStyle(
+                            fontSize: 32,
+                            color: AppColors.DARK,
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                      ),
+                      SizedBox(height: 15),
+                      Obx(
+                        () => Text(
+                          controller.product?.description ?? "",
+                          style: TextStyle(
+                            fontSize: 14,
+                            color: AppColors.DARK,
+                            fontWeight: FontWeight.normal,
+                          ),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
-                SizedBox(height: 15),
-                Obx(
-                  () => Text(
-                    controller.product?.priceBrl ?? "",
-                    style: TextStyle(
-                      fontSize: 21,
-                      color: AppColors.GREEN,
-                      fontWeight: FontWeight.bold,
-                    ),
-                  ),
-                )
               ],
             ),
           ),
-          bottomNavigationBar: ProductActions(),
+          bottomNavigationBar: Obx(() => ProductActions(controller.product)),
         );
       },
     );

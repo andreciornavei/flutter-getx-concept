@@ -7,12 +7,14 @@ class ProductModel {
     String category,
     double price,
     String image,
+    String description,
   }) {
     this.id = id;
     this.name = name;
     this.category = category;
     this.price = price;
     this.image = image;
+    this.description = description;
     this.like = false;
   }
 
@@ -35,6 +37,10 @@ class ProductModel {
   RxString _image = RxString();
   set image(String value) => _image.value = value;
   String get image => _image.value;
+
+  RxString _description = RxString();
+  set description(String value) => _description.value = value;
+  String get description => _description.value;
 
   RxBool _like = RxBool();
   set like(bool value) => _like.value = value;

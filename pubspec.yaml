@@ -25,7 +25,7 @@ flutter:
     - assets/data/products.json
     - assets/data/categories.json
     - assets/images/banana.png
-    - assets/images/kiwi2.png
+    - assets/images/kiwi.png
     - assets/images/orange.png
     - assets/images/apple.png
     - assets/images/watermelon.png

@@ -35,7 +35,7 @@ class OrganicButton extends StatelessWidget {
             height: 40,
             width: 40,
             decoration: BoxDecoration(
-              color: AppColors.GREEN,
+              color: AppColors.LIGHT_GREEN,
               borderRadius: BorderRadius.circular(40),
             ),
             child: Icon(
