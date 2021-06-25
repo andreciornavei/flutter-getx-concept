@@ -27,7 +27,7 @@ class ListItem extends StatelessWidget {
         ),
       ),
       child: Stack(
-        overflow: Overflow.visible,
+        clipBehavior: Clip.none,
         children: <Widget>[
           Padding(
             padding: EdgeInsets.only(

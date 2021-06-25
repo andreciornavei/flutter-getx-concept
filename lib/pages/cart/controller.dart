@@ -10,7 +10,7 @@ class CartController extends GetxController {
   AppController appController = Get.find();
 
   String get total {
-    double fold = appController.cartItems.value.fold(0, (subtotal, cartItem) {
+    double fold = appController.cartItems.fold(0, (subtotal, cartItem) {
       return subtotal + cartItem.product.price * cartItem.quantity;
     });
     return "U\$" + fold.toStringAsFixed(2);

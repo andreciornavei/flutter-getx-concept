@@ -40,7 +40,7 @@ class ProductController extends GetxController {
   addProduct() {
     try {
       CartItemModel cartItem =
-          appController.cartItems.value.firstWhere((cartItem) {
+          appController.cartItems.firstWhere((cartItem) {
         return cartItem.product.id == this.product.id;
       });
       cartItem.incrementQuantity();
