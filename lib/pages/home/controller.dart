@@ -9,7 +9,7 @@ class HomeController extends GetxController {
   AppController appController = Get.find();
   RxList<CategoryModel> categories = RxList<CategoryModel>([]);
   RxList<ProductModel> products = RxList<ProductModel>([]);
-  Rx<CategoryModel> _selectedCategory = Rx<CategoryModel>();
+  Rx<CategoryModel> _selectedCategory = Rx<CategoryModel>(null);
   CategoryModel get selectedCategory => _selectedCategory.value;
 
   int get cartQuantity {

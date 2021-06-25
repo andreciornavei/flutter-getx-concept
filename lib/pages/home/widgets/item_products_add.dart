@@ -16,13 +16,15 @@ class ItemAdd extends StatelessWidget {
       child: SizedBox(
         width: 40,
         height: 40,
-        child: FlatButton(
-          padding: EdgeInsets.zero,
-          color: AppColors.LIGHT_GREEN,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.only(
-              topLeft: Radius.circular(8),
-              bottomRight: Radius.circular(8),
+        child: TextButton(
+          style: TextButton.styleFrom(
+            padding: EdgeInsets.zero,
+            backgroundColor: AppColors.LIGHT_GREEN,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                topLeft: Radius.circular(8),
+                bottomRight: Radius.circular(8),
+              ),
             ),
           ),
           child: Icon(

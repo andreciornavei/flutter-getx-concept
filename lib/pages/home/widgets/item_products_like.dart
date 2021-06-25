@@ -16,12 +16,14 @@ class ItemLike extends StatelessWidget {
       child: SizedBox(
         width: 40,
         height: 40,
-        child: FlatButton(
-          padding: EdgeInsets.zero,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.only(
-              topRight: Radius.circular(8),
-              bottomLeft: Radius.circular(8),
+        child: TextButton(
+          style: TextButton.styleFrom(
+            padding: EdgeInsets.zero,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.only(
+                topRight: Radius.circular(8),
+                bottomLeft: Radius.circular(8),
+              ),
             ),
           ),
           child: Obx(() {

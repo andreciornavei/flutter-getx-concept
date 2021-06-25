@@ -11,13 +11,14 @@ class CartItemButton extends StatelessWidget {
     return SizedBox(
       width: 32,
       height: 32,
-      child: FlatButton(
+      child: TextButton(
         onPressed: action,
-        color: AppColors.WHITE,
-        padding: EdgeInsets.zero,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(32),
-        ),
+        style: TextButton.styleFrom(
+            backgroundColor: AppColors.WHITE,
+            padding: EdgeInsets.zero,
+            shape: RoundedRectangleBorder(
+              borderRadius: BorderRadius.circular(32),
+            )),
         child: Icon(
           icon,
           color: AppColors.GREEN,

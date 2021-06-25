@@ -9,11 +9,11 @@ class CartItemModel {
     this.product = product;
     this.quantity = quantity;
   }
-  Rx<ProductModel> _product = Rx<ProductModel>();
+  Rx<ProductModel> _product = Rx<ProductModel>(null);
   set product(ProductModel value) => _product.value = value;
   ProductModel get product => _product.value;
 
-  RxInt _quantity = RxInt();
+  RxInt _quantity = RxInt(0);
   set quantity(int value) => _quantity.value = value;
   int get quantity => _quantity.value;
 
