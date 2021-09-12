@@ -6,6 +6,6 @@ import 'pages/product/index.dart';
 
 routes() => [
   GetPage(name: "/", page: () => Home()),
-  GetPage(name: "products/:id", page: () => Product()),
+  GetPage(name: "/products/:id", page: () => Product()),
   GetPage(name: "/cart", page: () => Cart()),
 ];

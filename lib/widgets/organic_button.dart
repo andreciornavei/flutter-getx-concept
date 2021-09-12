@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_getx_concept/utils/colors.dart';
 
 class OrganicButton extends StatelessWidget {
-
   final Function action;
   final String label;
   final IconData icon;
@@ -10,13 +9,15 @@ class OrganicButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return FlatButton(
+    return TextButton(
       onPressed: action,
-      color: AppColors.WHITE,
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(100),
+      style: TextButton.styleFrom(
+        primary: AppColors.WHITE,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(100),
+        ),
+        padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
       ),
-      padding: EdgeInsets.symmetric(horizontal: 10, vertical: 10),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: <Widget>[

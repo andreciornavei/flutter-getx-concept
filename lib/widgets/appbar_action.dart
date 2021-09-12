@@ -15,15 +15,16 @@ class CustomAppBarAction extends StatelessWidget {
       child: SizedBox(
         width: 50,
         height: 50,
-        child: FlatButton(
+        child: TextButton(
           onPressed: action,
-          padding: EdgeInsets.zero,
-          color: AppColors.WHITE,
-          shape: RoundedRectangleBorder(
-            borderRadius: BorderRadius.circular(8),
-          ),
+          style: TextButton.styleFrom(
+              padding: EdgeInsets.zero,
+              backgroundColor: AppColors.WHITE,
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(8),
+              )),
           child: Stack(
-            overflow: Overflow.visible,
+            clipBehavior:Clip.none,
             children: <Widget>[
               Icon(
                 icon,
