@@ -8,7 +8,7 @@
 
 ## Overview
 
-This project was created with the purpose to apply most of concepts implementeds by the state manager [GetX][getx_package]. Using a small flux of screens to simulate a shopping cart, this project implements a folder architeture that make sense for placing all the widgets tree from a screen to have secure access of its parent controllers.
+This project created with the purpose to apply most of concepts implementeds by the state manager [GetX][getx_package]. Using a small flux of screens to simulate a shopping cart, this project implements a folder architeture that make sense for placing all the widgets tree from a screen to have secure access of its parent controllers.
 
 In general, this project is part of a studies to understand the best architecture pattern to implement in flutter projects that works for me and i hope to works for you too.
 
